@@ -4,7 +4,7 @@ import Typewriter from "./Components/TypeWriter/Typewriter";
 export default function page() {
   return (
     <>
-      <div className="h-screen w-full bg-[url('/hashish.png')] bg-center bg-cover bg-fixed">
+      <div className="h-screen w-full bg-[url('/Hashish.png')] bg-center bg-cover bg-fixed">
         <div className="h-screen w-full bg-black/50 flex flex-col items-center justify-center">
           <h1 className="text-8xl font-bold text-yellow-500">Hello</h1>
           <Typewriter className="text-yellow-500"/>
