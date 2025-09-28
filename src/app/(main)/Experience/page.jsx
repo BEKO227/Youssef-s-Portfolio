@@ -9,7 +9,7 @@ export default function Experience() {
       duration: "2025 – Present",
       description:
         "Worked as a Technical Engineer handling device installation, maintenance, and customer training across multiple scientific and industrial devices.",
-      image: "/experience/eciss-bg.jpg",
+      image: "/ECISS_logo.png",
     },
     {
       role: "Frontend Developer Intern",
@@ -17,7 +17,7 @@ export default function Experience() {
       duration: "Summer 2023",
       description:
         "Developed frontend components for web applications using React.js and TailwindCSS, ensuring responsiveness and clean design.",
-      image: "/experience/pentab-bg.jpg",
+      image: "/PentaB.jpg",
     },
     {
       role: "Volunteer",
@@ -25,7 +25,7 @@ export default function Experience() {
       duration: "2016 – 2021",
       description:
         "Contributed to community service and charity events, gaining valuable teamwork and organizational experience.",
-      image: "/experience/resala-bg.jpg",
+      image: "/Resala.png",
     },
   ];
 

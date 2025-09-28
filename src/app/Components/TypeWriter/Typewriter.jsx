@@ -13,15 +13,21 @@ export default function Typewriter() {
 
     const handler = setTimeout(() => {
       if (!isDeleting) {
-        // typing forward
-        setDisplayText(current.slice(0, displayText.length + 1));
-        if (displayText.length + 1 === current.length) {
-          setTimeout(() => setIsDeleting(true), 1500); // pause before deleting
+        // Typing forward
+        const nextText = current.slice(0, displayText.length + 1);
+        setDisplayText(nextText);
+
+        if (nextText === current) {
+          // full word typed → pause then start deleting
+          setTimeout(() => setIsDeleting(true), 1200);
         }
       } else {
-        // deleting
-        setDisplayText(current.slice(0, displayText.length - 1));
-        if (displayText.length === 0) {
+        // Deleting
+        const nextText = current.slice(0, displayText.length - 1);
+        setDisplayText(nextText);
+
+        if (nextText === "") {
+          // word fully deleted → go to next line
           setIsDeleting(false);
           setCurrentLine((prev) => (prev + 1) % lines.length);
         }
