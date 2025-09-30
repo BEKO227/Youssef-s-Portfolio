@@ -25,20 +25,27 @@ export default function AboutMe() {
             <h2 className="text-3xl font-bold text-yellow-500 mb-4">About Me</h2>
             <p className="text-lg leading-relaxed text-white">
               I’m <span className="font-semibold">Youssef Hashish</span>, a fresh
-              Computer Engineering graduate from Nile University. I enjoy building
+              Computer Engineering graduate from <span className="font-semibold text-yellow-400">
+                Nile Univeristy
+              </span>. I enjoy building
               innovative solutions that bridge technology and real-world needs,
               with hands-on experience in{" "}
               <span className="font-semibold">
                 web development, embedded systems, IoT, and circuit design
+              </span>.
+              I’m a fast learner with strong problem-solving skills, teamwork
+              spirit, and an eye for detail. Recently, I also completed a{" "}
+              <span className="font-semibold text-yellow-400">
+                Frontend Development Diploma at Route Academy
               </span>
-              . I’m a fast learner with strong problem-solving skills, teamwork
-              spirit, and an eye for detail. I value{" "}
+              , where I gained practical skills in React.js, Next.js, and Tailwind CSS.
+              I value{" "}
               <span className="font-semibold">
                 time management, organization, and creativity
-              </span>
-              , and I’m always eager to explore new technologies and grow as an
+              </span>, and I’m always eager to explore new technologies and grow as an
               engineer.
             </p>
+
           </div>
         </div>
 
@@ -80,8 +87,18 @@ export default function AboutMe() {
                 <li>Team Collaboration & Multitasking</li>
               </ul>
             </div>
-
-
+            <div>
+            <h3 className="text-xl font-semibold mb-3 text-white">
+              Certifications
+            </h3>
+            <ul className="list-disc list-inside space-y-1 text-white hover:[&>li]:text-yellow-400 transition-all">
+              <li>
+                <span className="font-semibold text-white-400">
+                  Frontend Development Diploma – Route Academy (2025)
+                </span>
+              </li>
+            </ul>
+          </div>
             <div>
               <h3 className="text-xl font-semibold mb-3 text-white">
                 Languages

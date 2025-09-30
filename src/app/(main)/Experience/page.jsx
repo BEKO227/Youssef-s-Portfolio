@@ -27,6 +27,14 @@ export default function Experience() {
         "Contributed to community service and charity events, gaining valuable teamwork and organizational experience.",
       image: "/Resala.png",
     },
+    {
+      role: "Frontend Development Diploma",
+      company: "Route Academy",
+      duration: "2025",
+      description:
+        "Completed a professional diploma in Frontend Development, gaining hands-on experience in React.js, Next.js, TailwindCSS, and modern web practices.",
+      image: "/Route.png",
+    },    
   ];
 
   return (

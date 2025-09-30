@@ -16,7 +16,7 @@ export default function ProjectCard({
     <motion.div
       initial={{ opacity: 0, x: direction === "left" ? -100 : 100 }}
       whileInView={{ opacity: 1, x: 0 }}
-      viewport={{ once: false, amount: 0.2 }} // 👈 animate every scroll
+      viewport={{ once: false, amount: 0.2 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
       whileHover={{
         scale: 1.05,
