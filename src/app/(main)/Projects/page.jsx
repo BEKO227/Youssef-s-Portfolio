@@ -26,6 +26,13 @@ export default function Projects() {
       link: "https://biko-sphere-app.vercel.app/",
     },
     {
+      title: "Roads and rides",
+      description: "A social media website for Roads & Rides the first exotics club in Egypt",
+      tech: ["Next.js", "TailwindCSS", "framer-motion"],
+      image: "/RandR logo.jpg",
+      link: "https://roads-rides.vercel.app/",
+    },
+    {
       title: "Advanced Security System",
       description: "IoT-based security system with device-free localization and mobile app control.",
       tech: ["React Native", "TypeScript", "IoT"],
