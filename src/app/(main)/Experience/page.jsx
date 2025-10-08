@@ -12,6 +12,14 @@ export default function Experience() {
       image: "/ECISS_logo.png",
     },
     {
+      role: "Frontend Development Diploma",
+      company: "Route Academy",
+      duration: "2025",
+      description:
+        "Completed a professional diploma in Frontend Development, gaining hands-on experience in React.js, Next.js, TailwindCSS, and modern web practices.",
+      image: "/Route.png",
+    }, 
+    {
       role: "Frontend Developer Intern",
       company: "Penta-B Co.",
       duration: "Summer 2023",
@@ -26,15 +34,7 @@ export default function Experience() {
       description:
         "Contributed to community service and charity events, gaining valuable teamwork and organizational experience.",
       image: "/Resala.png",
-    },
-    {
-      role: "Frontend Development Diploma",
-      company: "Route Academy",
-      duration: "2025",
-      description:
-        "Completed a professional diploma in Frontend Development, gaining hands-on experience in React.js, Next.js, TailwindCSS, and modern web practices.",
-      image: "/Route.png",
-    },    
+    },   
   ];
 
   return (

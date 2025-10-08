@@ -5,11 +5,11 @@ import ProjectCard from "@/app/Components/ProjectCard/ProjectCard";
 export default function Projects() {
   const projects = [
     {
-      title: "ECISS Website",
-      description: "A professional company website for Egyptian Company for Scientific and Industrial Services.",
-      tech: ["React.js", "BootStrap" , "Vanilla CSS"],
-      image: "/ECISS_logo.png",
-      link: "https://www.eciss.com.eg/",
+      title: "Roads and rides",
+      description: "A social media website for Roads & Rides the first exotics club in Egypt",
+      tech: ["Next.js", "TailwindCSS", "framer-motion"],
+      image: "/RandR logo.jpg",
+      link: "https://roads-rides.vercel.app/",
     },
     {
       title: "Biko Plaza",
@@ -26,11 +26,11 @@ export default function Projects() {
       link: "https://biko-sphere-app.vercel.app/",
     },
     {
-      title: "Roads and rides",
-      description: "A social media website for Roads & Rides the first exotics club in Egypt",
-      tech: ["Next.js", "TailwindCSS", "framer-motion"],
-      image: "/RandR logo.jpg",
-      link: "https://roads-rides.vercel.app/",
+      title: "ECISS Website",
+      description: "A professional company website for Egyptian Company for Scientific and Industrial Services.",
+      tech: ["React.js", "BootStrap" , "Vanilla CSS"],
+      image: "/ECISS_logo.png",
+      link: "https://www.eciss.com.eg/",
     },
     {
       title: "Advanced Security System",
