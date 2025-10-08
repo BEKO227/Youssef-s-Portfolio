@@ -7,14 +7,14 @@ export default function Projects() {
     {
       title: "ECISS Website",
       description: "A professional company website for Egyptian Company for Scientific and Industrial Services.",
-      tech: ["React.js", "BootStrap"],
+      tech: ["React.js", "BootStrap" , "Vanilla CSS"],
       image: "/ECISS_logo.png",
       link: "https://www.eciss.com.eg/",
     },
     {
       title: "Biko Plaza",
       description: "E-commerce web app template with authentication, payments, and real APIs.",
-      tech: ["Next.js", "NextAuth", "Stripe", "TailwindCSS"],
+      tech: ["Next.js", "NextAuth", "Stripe", "TailwindCSS" , "CSR" , "SSR"],
       image: "/logo.png",
       link: "https://biko-plaza.vercel.app/",
     },
