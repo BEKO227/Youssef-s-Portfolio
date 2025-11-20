@@ -5,6 +5,13 @@ import ProjectCard from "@/app/Components/ProjectCard/ProjectCard";
 export default function Projects() {
   const projects = [
     {
+    title: "Qamar Scarves",
+    description: "An e-commerce platform for Qamar Scarves, featuring dynamic product listings, real-time updates, and a smooth shopping experience.",
+    tech: ["React.js", "Next.js", "TailwindCSS", "Firebase"],
+    image: "/qamar.jpg",
+    link: "https://qamar-kappa.vercel.app/",
+  },
+    {
       title: "Roads and rides",
       description: "A social media website for Roads & Rides the first exotics club in Egypt",
       tech: ["Next.js", "TailwindCSS", "framer-motion"],
