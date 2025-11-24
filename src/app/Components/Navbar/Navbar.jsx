@@ -44,8 +44,9 @@ export function Navbar() {
         </NavigationMenu>
 
         {/* Mobile Hamburger */}
-        <div className="md:hidden bg-yellow-400 text-black">
+        <div className="md:hidden border-amber-400">
           <Button
+          className={"isOpen ? 'bg-black border-2 border-yellow-500 text-yellow-500' : 'bg-black text-yellow-400 hover:text-yellow-500'"}
             variant="ghost"
             size="icon"
             onClick={() => setIsOpen(!isOpen)}

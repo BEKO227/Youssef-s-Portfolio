@@ -48,8 +48,8 @@ export default function Projects() {
   ];
 
   return (
-    <section className="relative py-20 px-6 bg-[url('/projectsbg.jpg')] bg-center bg-cover bg-fixed">
-      <div className="absolute inset-0 bg-black/70"></div>
+<section className="relative py-28 px-6 bg-[url('/projectsbg.jpg')] bg-center bg-cover md:bg-fixed">
+<div className="absolute inset-0 bg-black/70"></div>
       <div className="relative max-w-6xl mx-auto">
         <h2 className="text-4xl font-bold text-yellow-500 mb-12 text-center">
           My Projects
