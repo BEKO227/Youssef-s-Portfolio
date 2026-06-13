@@ -32,10 +32,18 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Navbar/>
+        <section id="home">
         <Home/>
+        </section>
+        <section id="about">
         <AboutMe/>
+        </section>
+        <section id="projects">
         <Projcets/>
+        </section>
+        <section id="experience">
         <Experience/>
+        </section>
         <Footer/>
       </body>
     </html>

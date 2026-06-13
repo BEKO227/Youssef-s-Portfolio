@@ -12,13 +12,21 @@ export default function Experience() {
       image: "/ECISS_logo.png",
     },
     {
+      role: "DEMI Instructor",
+      company: "iSchool",
+      duration: "April 2026 – June 2026",
+      description:
+        "Delivered DEMI curriculum sessions to students, simplifying technical concepts and fostering hands-on learning in a structured academic environment.",
+      image: "/iSchool.png",
+    },
+    {
       role: "Frontend Development Diploma",
       company: "Route Academy",
       duration: "2025",
       description:
         "Completed a professional diploma in Frontend Development, gaining hands-on experience in React.js, Next.js, TailwindCSS, and modern web practices.",
       image: "/Route.png",
-    }, 
+    },
     {
       role: "Frontend Developer Intern",
       company: "Penta-B Co.",
@@ -34,13 +42,19 @@ export default function Experience() {
       description:
         "Contributed to community service and charity events, gaining valuable teamwork and organizational experience.",
       image: "/Resala.png",
-    },   
+    },
   ];
 
   return (
-<section className="relative py-28 px-6 bg-[url('/bg1.jpg')] bg-center bg-cover md:bg-fixed">
-<div className="absolute inset-0 bg-black/70"></div>
+    <section className="relative py-28 px-6 bg-[url('/bg1.jpg')] bg-center bg-cover md:bg-fixed">
+      <div className="absolute inset-0 bg-black/70" />
+
       <div className="relative max-w-5xl mx-auto">
+        {/* Eyebrow */}
+        <p className="text-center text-xs tracking-[0.3em] text-yellow-500/70 uppercase mb-3">
+          My Journey
+        </p>
+
         <h2 className="text-4xl font-bold text-yellow-500 mb-12 text-center">
           Work Experience
         </h2>
