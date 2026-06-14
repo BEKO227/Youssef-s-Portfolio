@@ -220,7 +220,7 @@ export default function AboutMe() {
                                text-yellow-500/80 mb-2">
                 Who I Am
               </span>
-              <h2 className="text-3xl font-bold text-yellow-500 leading-tight">About Me</h2>
+              <h2 className="text-3xl font-bold text-yellow-500 leading-tight"><span className="text-white">About </span>Me</h2>
             </motion.div>
 
             <AnimatedWords>

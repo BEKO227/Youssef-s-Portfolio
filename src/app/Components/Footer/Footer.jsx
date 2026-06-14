@@ -84,7 +84,7 @@ export default function Footer() {
 
             {/* Brand column */}
             <div className="flex flex-col gap-4">
-              <span className="text-2xl font-bold text-yellow-400 tracking-wider">YH</span>
+              <span className="text-2xl font-bold text-yellow-400 tracking-wider"><span className="text-white">Y</span>H</span>
               <p className="text-sm text-white/40 leading-relaxed max-w-xs">
                 Frontend developer based in Egypt, building fast and thoughtful web experiences with React and Next.js.
               </p>

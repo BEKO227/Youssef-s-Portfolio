@@ -95,7 +95,7 @@ export default function Home() {
       color: "text-blue-400 hover:bg-blue-700/20 hover:border-blue-500/50",
     },
     {
-      href: "https://drive.google.com/file/d/148eHFu3VwYepfHq2BT16hmvW-SUqLBgr/view?usp=drive_link",
+      href: "https://drive.google.com/file/d/1z2LamOXc_D9bHPFoIF5LB3JvvZwVwC6n/view?usp=drive_link",
       label: "Download CV",
       icon: "fa-file-arrow-down",
       color: "text-yellow-400 hover:bg-yellow-500/20 hover:border-yellow-400/50",

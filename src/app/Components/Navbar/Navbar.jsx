@@ -100,7 +100,7 @@ export function Navbar() {
           className="text-xl font-bold tracking-wider text-yellow-400 hover:text-yellow-300 transition-colors duration-200"
           aria-label="Home"
         >
-          YH
+          <span className="text-white">Y</span>H
         </Link>
 
         {/* Desktop nav */}
@@ -126,7 +126,7 @@ export function Navbar() {
 
         {/* CTA — desktop */}
         <a
-          href="https://drive.google.com/file/d/148eHFu3VwYepfHq2BT16hmvW-SUqLBgr/view?usp=drive_link"
+          href="https://drive.google.com/file/d/1z2LamOXc_D9bHPFoIF5LB3JvvZwVwC6n/view?usp=drive_link"
           target="_blank"
           rel="noopener noreferrer"
           className="hidden md:inline-flex items-center gap-2 rounded-full border border-yellow-500/40 px-4 py-1.5 text-sm text-yellow-400 hover:bg-yellow-500/10 hover:border-yellow-400/70 transition-all duration-300"
@@ -180,7 +180,7 @@ export function Navbar() {
           ))}
 
           <a
-            href="https://drive.google.com/file/d/148eHFu3VwYepfHq2BT16hmvW-SUqLBgr/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1z2LamOXc_D9bHPFoIF5LB3JvvZwVwC6n/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 pt-3 text-sm text-yellow-400 hover:text-yellow-300 transition-colors duration-200"

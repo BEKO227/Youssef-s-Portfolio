@@ -56,7 +56,7 @@ export default function Experience() {
         </p>
 
         <h2 className="text-4xl font-bold text-yellow-500 mb-12 text-center">
-          Work Experience
+          <span className="text-white">Work</span> Experience
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
