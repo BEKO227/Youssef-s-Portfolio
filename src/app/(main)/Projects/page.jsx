@@ -4,6 +4,14 @@ import ProjectCard from "@/app/Components/ProjectCard/ProjectCard";
 
 const projects = [
   {
+    title: "ECISS Quality Control Dashboard",
+    description: "A professional desktop dashboard that reads AdvanceLab gauges over USB/serial, performs live statistical quality control, and generates certified PDF reports.",
+    tech: ["Python", "PySide6", "Matplotlib", "ReportLab", "Serial"],
+    image: "/wall-thickness-analysis-software.webp", // You can update this to match your preferred asset image path
+    link: "https://www.eciss.com.eg/uploads/softwares/brochures/ECISS-QC-Dashboard%E2%80%94Details-Brochure.pdf",
+    category: "Desktop",
+  },
+  {
     title: "Qamar Scarves",
     description: "An e-commerce platform for Qamar Scarves, featuring dynamic product listings, real-time updates, and a smooth shopping experience.",
     tech: ["React.js", "Next.js", "TailwindCSS", "Firebase"],
@@ -91,7 +99,7 @@ export default function Projects() {
             My <span className="text-yellow-400">Projects</span>
           </h2>
           <p className="mt-3 text-sm text-white/40 max-w-md mx-auto">
-            {projects.length} projects across web, mobile, and IoT
+            {projects.length} projects across web, mobile, desktop, and IoT
           </p>
         </div>
 
